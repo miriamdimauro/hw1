@@ -1,0 +1,146 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    color: whitesmoke;
+    background-color: #000000;
+    background-image: url(imgsignup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+article {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.show {
+    position: absolute; 
+    left: 90%;
+    width:5%;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(97, 75, 124, 0.208);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+input {
+    margin-left: 0.5em;
+    margin: 15px;
+    background-color: rgba(154, 114, 213, 0.591);
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+
+.purple {
+    color: rgb(184, 139, 250);
+}
+
+
+
+.container  {
+    display: flex;
+    align-items: space-between;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    border-bottom: 1px solid rgb(184, 139, 250);
+    font-size: 4rem;
+    margin-top:5px;
+    color: whitesmoke;
+    text-align: center;
+    width: 50%;
+}
+
+.button {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 80px;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #f5f5f5;  
+    background-color: #3e1f64;
+}
+
+.errore {
+    text-align: center;
+    font-family: Helvetica;
+    margin:0px;
+    color:  red;
+    font-size: 0.7rem;
+    letter-spacing: 0.25px;
+}
+
+.errore_bordo {
+    border: 1px solid red;
+}
+
+.hidden {
+    display: none;
+}
+
+#fine {
+    text-align: center;
+}
+
+a {
+    color:  rgb(184, 139, 250);
+}
+
+@media (max-width: 600px) {
+
+    html {
+        font-size: 15px;
+    }
+    main {
+        width: 65%;
+    }
+   
+}
+
+@media (max-width: 400px) {
+   
+    html {
+        font-size: 15px;
+    }
+    main {
+        width: 70%;
+    }
+}

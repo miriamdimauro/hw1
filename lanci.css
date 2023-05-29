@@ -1,0 +1,145 @@
+html{
+ font-size: 18px;
+ font-family: 'Poppins',sans-serif;
+ color: whitesmoke;
+}
+
+body{
+ background-color: rgb(9,0,12);
+ margin: 0;
+ background-image: url(schermata.jpg);
+ background-repeat: no-repeat;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+header{
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ height: 15%;
+ background-size: cover;
+ border-bottom: 2px solid rgb(239, 214, 255);
+}
+
+.glass{
+ position: relative;
+ width: 80%;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ padding: 40px;
+ border: 0.5px solid rgba(235, 233, 233, 0.146);
+ background: linear-gradient(to left, #24004241, #6504d433);
+ backdrop-filter: blur(20px);
+ border-radius: 10px;
+}
+
+.title {
+ font-family: 'Chakra Petch', sans-serif;
+ font-size: 3rem;
+ margin-bottom: 20px;
+}
+
+
+.one {
+ margin-bottom: 20px;
+ display: flex;
+ align-items: center;
+ padding: 20px;
+}
+
+.two {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 100%;
+ font-size: 0.8rem;
+ margin: 0;
+ border-top: 0.8px solid whitesmoke;
+ background-color: rgba(123, 18, 222, 0.356);
+ border-radius: 4px;
+ margin-top: 15px;
+}
+
+.two a {
+ color: rgba(255, 255, 255, 0.737);
+ text-decoration: none;
+ padding: 2px 20px;
+ font-family: 'Oswald', sans-serif;
+}
+
+.two a:hover {
+background: rgba(255, 255, 255, 0.1);
+color: rgba(223, 180, 255, 0.7);
+border-radius: 3px;
+}
+
+
+a {
+ text-decoration: none;
+ color: whitesmoke;
+ margin: 10px;
+}
+
+img {
+ width: 15%;
+}
+
+.link{
+ width: 100%;
+ text-align: end;
+ text-decoration: none;
+}
+
+
+#galleria {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+h1 {
+ font-size: 3rem;
+ text-align: center;
+ margin: 0px;
+}
+
+p {
+ font-size: 1.3rem;
+ text-align: left;
+}
+
+input {
+ background-color:rgba(178, 126, 255, 0.742);
+ border-radius: 15px;
+ padding: 5px;
+ margin: 5px;
+ font-size: 1rem;
+ color: whitesmoke; 
+}
+
+.launches{
+ text-align: center;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ padding: 20px;
+ border: 0.5px solid rgba(235, 233, 233, 0.146);
+ background: linear-gradient(to left, #ffffffec, #d3acffc7);
+ backdrop-filter: blur(20px);
+ border-radius: 10px;
+ color: rgb(24, 0, 42);
+ }
+
+.foto {
+ max-width: 40%;
+}
+
+@media (max-width: 600px){
+ html {
+ font-size: 10px;
+ }
+}
